@@ -10,7 +10,7 @@ package practiseproject2;
 	       
 	       emailID.add("suba.45@yahoo.com");
 	       emailID.add("swetha.4@yahoo.com");
-	       emailID.add("varshini.s@gmail.com");
+	       emailID.add("megala.s@gmail.com");
 	       emailID.add("dhiviya.5@gmail.com");
 	       emailID.add("then.8@gmail.com");
 	 

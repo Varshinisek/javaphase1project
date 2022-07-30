@@ -1,20 +1,28 @@
 package asisstedproject;
 
-public class callbyvalue {
 
-		int val=150;
+	public class CallbyValue {
+		
+		public static void swap(int num1,int num2) {
+			num1=45;
+			num2=85;
+			
+			System.out.println("Method inside a = "+num1+" and "+" b = "+num2+" value");
 
-		int operation(int val) {
-			val =val*10/100;
-			return(val);
+			
 		}
 
-		public static void main(String args[]) {
-			callbyvalue d = new callbyvalue();
-			System.out.println("Before operation value of data is "+d.val);
-			d.operation(100);
-			System.out.println("After operation value of data is "+d.val);
-			}
+		public static void main(String[] args) {
+			int a=10;
+			int b=30;
+			System.out.println("Before Value : a ="+a+" and "+" b = "+b);
+		
+			swap(a,b);
+			
+			System.out.println("After value : a ="+a+" and "+" b = "+b);
+			
 		}
+		
 
+	}
 
