@@ -1,7 +1,6 @@
 package asisstedproject;
 
 public class typecasting {
-	public class typeCasting {
 
 		public static void main(String[] args) {
 			
@@ -35,4 +34,3 @@ public class typecasting {
 			
 		}
 	}
-}

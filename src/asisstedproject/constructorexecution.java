@@ -10,10 +10,10 @@ package asisstedproject;
 		id=i;
 		name=n;
 		}
-
 		void display() {
-		System.out.println(id+" "+name);
-		}
+			System.out.println(id+" "+name);
+			}
+		
 	}
 
 	public class constructorexecution {
@@ -24,6 +24,7 @@ package asisstedproject;
 		std1.display();
 		std2.display();
 			}
+	
 	}
 
 
