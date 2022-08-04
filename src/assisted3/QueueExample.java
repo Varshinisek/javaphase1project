@@ -1,4 +1,4 @@
-package assisted2;
+package assisted3;
 	public class QueueExample {
 		 int SIZE = 6;
 		  int items[] = new int[SIZE];

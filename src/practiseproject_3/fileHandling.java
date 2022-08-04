@@ -18,7 +18,7 @@ package practiseproject_3;
 		public static void main(String[] args) throws FileNotFoundException, IOException {
 			
 			System.out.println("Please select one of the below operations");
-	        System.out.println("1.Write to file\n2.Read File\n3.Append file ");
+			 System.out.println("1.Write to file\n2.Read File\n3.Append file ");
 	        String path="C:\\Users\\Administrator\\Desktop\\nithish\\varshini.txt";
 	    	Scanner sc =new Scanner(System.in);
 	    	int choose=sc.nextInt();
@@ -38,13 +38,13 @@ package practiseproject_3;
 			// TODO Auto-generated method stub
 
 			Scanner sc =new Scanner(System.in);
-			System.out.println("CAUTION >> Please understand it will overwrite the content of the file ");
+		 	System.out.println("CAUTION >> Please understand it will overwrite the content of the file ");
 	        System.out.println("Type 'no' to exit");
 	        System.out.println("Do you want to proceed :type 'yes' ");
 	        String s1=sc.nextLine();
 	        if(s1.equals("no"))
 	         System.exit(0);
-
+	        else
 			System.out.println("Enter the data which you want to write on the file");
 			String data=sc.nextLine();
 		    

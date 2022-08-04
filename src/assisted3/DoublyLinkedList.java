@@ -1,4 +1,4 @@
-package assisted2;
+package assisted3;
 	import java.io.*;
 
 
@@ -59,15 +59,15 @@ package assisted2;
 			// Traverse through the LinkedList and stops at end node
 			for (last=list.head;last.next != null;last = last.next) {}
 
-
 			for (;last != null;last = last.prev) {
+			
 				// Print the data at current node
 				System.out.print(last.data + " ");
 				// Go to next node
 				
 			}	
+		
 		}
-
 		// Method to delete a node in the LinkedList by KEY
 		public static DoublyLinkedList deleteByKey(DoublyLinkedList list, int key) {
 			// Store head node
